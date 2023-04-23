@@ -1,0 +1,490 @@
+/* Ressponssive Css Start */
+
+@media screen and (max-width: 1200px) {
+
+    .carousel-content h1 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .line {
+        margin-bottom: 30px;
+    }
+
+    ul.navbar-nav li {
+        padding-inline: 25px;
+    }
+
+    .cake-wrapper-detail {
+        padding: 0px 20px;
+    }
+
+    .cake-wrapper-detail p {
+        padding: 0px 20px;
+    }
+
+    .cake-wrapper-detail h2 {
+        margin-bottom: 50px;
+    }
+
+    .avtar {
+        margin: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    header .container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .carousel-content h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-content p {
+        font-size: 20px;
+        margin-bottom: 50px;
+        max-width: 400px;
+    }
+
+    .cake-wrapper-detail {
+        padding: 0px;
+    }
+
+    .cake-wrapper-detail h2 {
+        margin-bottom: 25px;
+    }
+
+    .cake-wrapper-detail p {
+        padding: 0px 20px;
+        margin-bottom: 25px;
+    }
+
+    .cakerWrapper-content h3 {
+        margin-bottom: 25px;
+    }
+
+    .avtar-name span {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .avtar {
+        margin: 0px;
+    }
+
+    .avtar img {
+        width: 100%;
+    }
+
+    .cake-wrapper {
+        padding: 20px;
+    }
+
+    .cake-wrapper .container {
+        max-width: 100%;
+    }
+
+    ul.navbar-nav li {
+        padding-inline: 5px;
+    }
+
+    .avtar {
+        padding-bottom: 20px;
+        margin: 0px 30px;
+    }
+
+    .custom-btn {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+
+    ul.navbar-nav li+li::before {
+        left: -5px;
+    }
+
+    .cake-cover-images img {
+        height: 200px;
+    }
+
+    .cake-wrapper-cover-images img {
+        width: 50%;
+    }
+
+    .cake-cover-images::after {
+        top: 6px;
+        left: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    ul.navbar-nav li {
+        padding-inline: 5px;
+    }
+
+    .nav-social-link {
+        margin-right: 75px;
+    }
+
+    ul.navbar-nav li+li::before {
+        left: -5px;
+    }
+
+    header .container {
+        padding: 0px 20px;
+    }
+
+    header .container {
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+
+    .carousel-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .custom-btn {
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+
+    .line {
+        margin-bottom: 10px;
+    }
+
+    .carousel-content h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .avtar {
+        margin: 0px;
+    }
+
+    .custom-btn {
+        padding: 10px 25px;
+        font-size: 10px;
+    }
+
+    section.cake-wrapper {
+        margin: 60px 0px;
+    }
+
+    .cake-wrapper-detail h2 {
+        margin-bottom: 25px;
+        font-size: 30px;
+        line-height: inherit;
+    }
+
+    .cake-wrapper-detail p {
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+
+    .cakerWrapper-content h3 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .avtar-quotes.text-center {
+        margin-bottom: 50px;
+    }
+
+    header {
+        height: unset;
+    }
+
+    .nav-social-link {
+        margin-right: 0px;
+        position: absolute;
+        top: 21px;
+        right: 60px;
+    }
+
+    button.navbar-toggler {
+        top: 16px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    ul.navbar-nav li+li::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        width: 75%;
+    }
+
+    header .container {
+        padding: 0px 20px;
+    }
+
+    .carousel-content h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-content p {
+        font-size: 12px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .line {
+        margin-bottom: 10px;
+    }
+
+    .social-link {
+        font-size: 14px;
+    }
+
+    button.navbar-toggler {
+        top: 8px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    ul.navbar-nav li+li::before {
+        display: none;
+    }
+
+    .nav-social-link {
+        margin-right: 0px;
+        position: absolute;
+        top: 15px;
+        right: 60px;
+    }
+
+    .carousel-content {
+        top: 20px;
+    }
+
+    .custom-btn {
+        padding: 10px 25px;
+        font-size: 10px;
+    }
+
+    .slider-icon-detail {
+        width: 50px;
+        height: 50px;
+    }
+
+    .slider-icon-content img {
+        width: 80px;
+    }
+
+    .slider-icon {
+        bottom: -40px;
+    }
+
+    a.nav-link {
+        font-size: 14px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        width: 75%;
+    }
+
+    .nav-social-link ul {
+        gap: 15px;
+    }
+
+    .carousel-content h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .line img {
+        width: 30%;
+    }
+
+    .custom-btn {
+        padding: 6px 12px;
+        font-size: 7px;
+    }
+
+    .carousel-content p {
+        font-size: 9px;
+        line-height: inherit;
+    }
+
+    .slider-icon-detail {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slider-icon-content img {
+        width: 50px;
+    }
+
+    .slider-icon {
+        bottom: -25px;
+    }
+
+    section.cake-wrapper {
+        margin: 15px 0px;
+    }
+
+    .cake-wrapper-detail h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .cake-wrapper-detail h2 span {
+        font-size: 10px;
+    }
+
+    .cake-wrapper-detail p {
+        margin-bottom: 20px;
+        font-size: 10px;
+        line-height: inherit;
+    }
+
+    .cakerWrapper-content h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .avtar-name span {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .avtar img {
+        width: 90%;
+    }
+
+    .avtar-quotes.text-center {
+        margin-bottom: 25px;
+    }
+
+    .cake-wrapper-cover-images img {
+        display: none;
+    }
+
+    a.nav-link {
+        font-size: 12px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        width: 75%;
+    }
+
+    .nav-social-link ul {
+        gap: 15px;
+    }
+
+    .carousel-content h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .line img {
+        width: 30%;
+    }
+
+    .social-link {
+        display: none;
+    }
+
+    .custom-btn {
+        padding: 6px 12px;
+        font-size: 7px;
+    }
+
+    .carousel-content p {
+        font-size: 9px;
+        line-height: inherit;
+    }
+
+    .slider-icon-detail {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slider-icon-content img {
+        width: 50px;
+    }
+
+    .slider-icon {
+        bottom: -25px;
+    }
+
+    section.cake-wrapper {
+        margin: 15px 0px;
+    }
+
+    .cake-wrapper-detail h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .cake-wrapper-detail h2 span {
+        font-size: 10px;
+    }
+
+    .cake-wrapper-detail p {
+        margin-bottom: 20px;
+        font-size: 10px;
+        line-height: inherit;
+    }
+
+    .cakerWrapper-content h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .avtar-name span {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .avtar img {
+        width: 90%;
+    }
+
+    .avtar-quotes.text-center {
+        margin-bottom: 25px;
+    }
+
+    .cake-wrapper-cover-images img {
+        display: none;
+    }
+
+    a.nav-link {
+        font-size: 10px;
+        line-height: 0px;
+    }
+}
+
+/* Ressponssive Css End */

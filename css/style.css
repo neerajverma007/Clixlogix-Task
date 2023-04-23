@@ -1,0 +1,350 @@
+@font-face {
+	font-family: "proximanova";
+	src: url(../font/Fontspring-DEMO-proximanova-regular.otf);
+	font-weight: 400;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #56534C;
+	font-style: normal;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a.btn:focus,
+button.btn:focus,
+a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+
+/* Start Css For Header */
+header {
+	background-color: RGBA(86, 83, 76, 0.5294117647058824);
+	height: 72px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+a.nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+a.nav-link:hover,
+a.nav-link:focus,
+a.social-link:hover,
+a.social-link:focus {
+	color: #ffd6a2;
+}
+
+ul.navbar-nav li {
+	position: relative;
+	padding-inline: 40px;
+}
+
+ul.navbar-nav li+li::before {
+	content: "~";
+	position: absolute;
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0px;
+}
+
+a.navbar-brand {
+	padding-block: 0px;
+}
+
+.nav-social-link ul {
+	gap: 30px;
+}
+
+.social-link {
+	color: RGBA(239, 235, 228, 1);
+	font-size: 16px;
+}
+
+span.navbar-toggler-icon::after {
+	content: "";
+	height: 2px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	bottom: -8px;
+	left: 0px;
+}
+
+span.navbar-toggler-icon {
+	width: 30px;
+	height: 2px;
+	display: inline-block;
+	background-color: white;
+	position: relative;
+}
+
+span.navbar-toggler-icon::before {
+	content: "";
+	height: 2px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: -8px;
+	left: 0px;
+}
+
+button.navbar-toggler:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+button.navbar-toggler {
+	position: absolute;
+	top: 14px;
+	right: 0px;
+}
+
+button.navbar-toggler:hover span,
+button.navbar-toggler:hover span::after,
+button.navbar-toggler:hover span::before {
+	background-color: #ffd6a2
+}
+
+/* End Css For Header */
+
+
+
+/* Start Css for Slider Section */
+button.carousel-control-prev,
+button.carousel-control-next,
+.carousel-indicators {
+	display: none;
+}
+
+section.carousel-wrapper {
+	position: relative;
+}
+
+.carousel-content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+section.carousel-wrapper::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #00000059;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 90;
+}
+
+.carousel-content h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 92px;
+	color: #fff;
+	letter-spacing: 5px;
+	margin-bottom: 55px;
+}
+
+.line {
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.carousel-content p {
+	font-family: "proximanova";
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 70px;
+	max-width: 500px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.custom-btn {
+	background-color: #00000059;
+	border: 1px #9e9c93 dashed;
+	padding: 15px 44px;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.custom-btn:hover {
+	background-color: #ffd6a2;
+	color: #56534C;
+	border: 1px #9e9c93 dashed;
+}
+
+.carousel-item img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.slider-icon {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -53px;
+	z-index: 99;
+}
+
+.slider-icon-content {
+	position: relative;
+}
+
+.slider-icon-detail {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+
+/* End Css for Slider section */
+
+
+/* Start css for cake-wrapper */
+section.cake-wrapper {
+	margin: 100px 0px;
+}
+
+.cake-cover-images img {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+
+.cake-cover-images {
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.cake-cover-images::after {
+	content: "";
+	width: 93%;
+	height: 93%;
+	position: absolute;
+	border: 5px solid #fff;
+	top: 10px;
+	left: 10px;
+}
+
+.cake-wrapper-cover {
+	position: relative;
+}
+
+.cake-wrapper-cover-images {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cake-wrapper-detail h2 {
+	font-weight: bold;
+	font-size: 48px;
+	color: #56534C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 36px;
+	margin-bottom: 70px;
+}
+
+.cake-wrapper-detail h2 span {
+	font-size: 14px;
+	color: #a47d5e;
+	text-transform: uppercase;
+}
+
+.cake-wrapper-detail {
+	padding: 0px 56px;
+}
+
+.cake-wrapper-detail p {
+	font-family: "proximanova";
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: #56534C;
+	margin-bottom: 45px;
+	padding: 0px 50px;
+}
+
+.cakerWrapper-content h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #56534C;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.avtar {
+	padding-bottom: 20px;
+	margin: 0px 60px;
+}
+
+.avtar-name span {
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid RGBA(215, 213, 202, 1);
+	border-bottom: 1px solid RGBA(215, 213, 202, 1);
+	padding: 10px;
+}
+
+.avtar .row {
+	align-items: center;
+}
+
+/* End Css for cake-wrapper */
